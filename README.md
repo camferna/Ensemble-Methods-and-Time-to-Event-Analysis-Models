@@ -11,5 +11,5 @@ The simulation section presents three experiments of simulated data and we simul
 ## Python Experiments
 
 * numfeatures_generate_data: the script used to generate the data of the decreasing number of features experiment.
-* numsamples_generate_data: the script used to generate the data of the increasing number of samples.
-* percensorship_generate_data: the script used to generate the data of the increasing percentage of censorship.
+* numsamples_generate_data: the script used to generate the data of the increasing number of samples experiment.
+* percensorship_generate_data: the script used to generate the data of the increasing percentage of censorship experiment.
