@@ -1,3 +1,5 @@
 # Ensemble-Methods-and-Time-to-Event-Analysis-Models
 
-Here I post the codes on how to simulate the data
+Paper: the link will be available soon.
+
+We implemented parametric, semi-parametric and machine learning methods.
