@@ -1,6 +1,9 @@
 # Ensemble-Methods-and-Time-to-Event-Analysis-Models
 
-Paper: the link will be available soon.
+Paper:
+
+Fernandez, C., Chen, C.S., Gaillard, P. and Silva, A. (2024). Experimental Comparison of Ensemble Methods and Time-to-Event Analysis Models Through Integrated Brier Score and Concordance Index. [arXiv preprint arXiv :2403.07460.](https://arxiv.org/abs/2403.07460)
+
 
 The simulation section presents three experiments of simulated data and we simulate this data with three different techniques.
 
