@@ -23,6 +23,6 @@ We used coxed library and simsurv library implemented in R.
 
 ## Python Experiments
 
-* numfeatures_generate_data: the script used to generate the data of the decreasing number of features experiment.
-* numsamples_generate_data: the script used to generate the data of the increasing number of samples experiment.
-* percensorship_generate_data: the script used to generate the data of the increasing percentage of censorship experiment.
+* python_numfeatures: the script used to generate the data of the decreasing number of features experiment.
+* python_numsamples: the script used to generate the data of the increasing number of samples experiment.
+* python_percensorship: the script used to generate the data of the increasing percentage of censorship experiment.
