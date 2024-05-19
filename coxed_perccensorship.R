@@ -1,5 +1,5 @@
 #This script is to generate the datasets for the experiment
-#where we vary the number of samples
+#where we vary the percentage of censorship
 
 library(coxed)
 
