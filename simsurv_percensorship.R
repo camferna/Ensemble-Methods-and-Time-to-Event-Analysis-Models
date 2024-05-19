@@ -18,8 +18,6 @@ for (pc in grid){
                                  X11=-0.5,X12=-0.5),
                        x= cov, maxt=5)
     simdata<-merge(cov,simdata)
-    #Create a new path in windows 
-    write.csv(simdata,paste0("C:/Users/camferna/Documents/Workspace/Simulations_Ensemble/simsurv_percensorship/percensdata_", pc,"_", i,".csv"))
-    #write.csv(simdata,paste0("~/Dropbox/Mac/Documents/Workspace/Simulations ensemble/number of samples/numsampledata_", N,"_", i,".csv"))
+    write.csv(simdata,paste0("percensdata_", pc,"_", i,".csv"))
   }
 } 
