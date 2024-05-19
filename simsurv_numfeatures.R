@@ -1,12 +1,5 @@
 library('simsurv')
-#library('survival')
-#library('flexsurv')
-
-
 N <- 1000
-
-
-
 
 for (i in 1:100){
   cov <- data.frame(id = 1:N, X1 = rnorm(N,0,1), X2 = rnorm(N,0,1),
@@ -24,9 +17,7 @@ for (i in 1:100){
                                X16=-0.5,X17=-0.5,X18=-0.5,X19=-0.5,X20=-0.5),
                      x= cov, maxt=5)
   simdata<-merge(cov,simdata)
-  #Create a new path in windows 
-  write.csv(simdata,paste0("C:/Users/camferna/Documents/Workspace/Simulations_Ensemble/simsurv_simv2/number_of_features_v2/numfeatdata_20_", i,".csv"))
-  #write.csv(simdata,paste0("~/Dropbox/Mac/Documents/Workspace/Simulations ensemble/number of samples/numsampledata_", N,"_", i,".csv"))
+  write.csv(simdata,paste0("numfeatdata_20_", i,".csv"))
   }
 
 
