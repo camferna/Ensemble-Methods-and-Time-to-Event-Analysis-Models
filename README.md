@@ -26,3 +26,6 @@ We used coxed library and simsurv library implemented in R.
 * python_numfeatures: the script used to generate the data of the decreasing number of features experiment.
 * python_numsamples: the script used to generate the data of the increasing number of samples experiment.
 * python_percensorship: the script used to generate the data of the increasing percentage of censorship experiment.
+
+## Ensemble Method
+* PBC_ensemble_method: Implementation of our aggregation method to the PBC dataset.
